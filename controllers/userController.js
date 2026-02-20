@@ -47,7 +47,7 @@ function updateUser(req, res, id) {
 
     if (!name) {
       res.writeHead(400, { "Content-Type": "application/json" });
-      res.end(JSON.stringify({ error: "Enter Name" }));
+      res.end(JSON.stringify({ error: "Name is required" }));
     }
 
     const updatedUser = data.users.find((user) => user.id === id);

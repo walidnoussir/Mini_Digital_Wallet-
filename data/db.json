@@ -1,21 +1,36 @@
 {
   "users": [
     {
-      "id": "a43b584d-603d-4321-8602-25c241c33d90",
-      "name": "aliouane"
+      "id": "a5ff5f6c-9509-472b-b4fb-2550dc90845f",
+      "name": "zineb"
     },
     {
-      "id": "99743159-81db-451c-996a-97f8e88c8172",
-      "name": "imad"
-    },
-    {
-      "id": "4c7cf8c8-258e-4fe3-aa69-5ea2ad8f76b3",
+      "id": "9061bc39-04ad-40e7-9e8d-fe0432630127",
       "name": "walid"
     },
     {
-      "id": "95c8fb1d-2307-4213-bcb0-d71fe1101c94",
-      "name": "salima ahsan tyaba fl3alam"
+      "id": "aa35a20f-ed3a-42a7-b627-884708576fa3",
+      "name": "imane"
+    },
+    {
+      "id": "2f752987-689b-4c9d-b25f-d177bca02621",
+      "name": "salima"
     }
   ],
-  "wallets": []
+  "wallets": [
+    {
+      "id": "c35bea31-60fb-4f22-84a5-e3f01b140ed1",
+      "userId": "9061bc39-04ad-40e7-9e8d-fe0432630127",
+      "name": "first wallet",
+      "userName": "walid",
+      "amount": 50
+    },
+    {
+      "id": "9f5f1937-f708-4656-9dc9-a6768daf1212",
+      "userId": "2f752987-689b-4c9d-b25f-d177bca02621",
+      "name": "first wallet",
+      "userName": "salima",
+      "amount": 50
+    }
+  ]
 }

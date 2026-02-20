@@ -1,9 +1,11 @@
 const http = require("http");
 const userRoutes = require("./routes/userRoutes");
+const walletRoutes = require("./routes/walletRoutes");
 
 const server = http.createServer((req, res) => {
   // try user routes first
   if (userRoutes(req, res) !== null) return;
+  if (walletRoutes(req, res) !== null) return;
 
   res.writeHead(404, { "Content-Type": "application/json" });
   res.end(JSON.stringify({ error: "Route not found" }));
