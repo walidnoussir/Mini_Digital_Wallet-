@@ -19,18 +19,40 @@
   ],
   "wallets": [
     {
-      "id": "c35bea31-60fb-4f22-84a5-e3f01b140ed1",
-      "userId": "9061bc39-04ad-40e7-9e8d-fe0432630127",
-      "name": "first wallet",
-      "userName": "walid",
-      "amount": 50
+      "id": 1771680234283,
+      "userId": "aa35a20f-ed3a-42a7-b627-884708576fa3",
+      "name": "wallet 1",
+      "userName": "imane",
+      "amount": 490
+    }
+  ],
+  "history": [
+    {
+      "id": 1771680290651,
+      "walletId": 1771680234283,
+      "userId": "aa35a20f-ed3a-42a7-b627-884708576fa3",
+      "type": "deposit",
+      "amount": 1000,
+      "balanceAfter": 1000,
+      "date": "2026-02-21T13:24:50.652Z"
     },
     {
-      "id": "9f5f1937-f708-4656-9dc9-a6768daf1212",
-      "userId": "2f752987-689b-4c9d-b25f-d177bca02621",
-      "name": "first wallet",
-      "userName": "salima",
-      "amount": 50
+      "id": 1771680322961,
+      "walletId": 1771680234283,
+      "userId": "aa35a20f-ed3a-42a7-b627-884708576fa3",
+      "type": "withdraw",
+      "amount": 500,
+      "balanceAfter": 500,
+      "date": "2026-02-21T13:25:22.961Z"
+    },
+    {
+      "id": 1771680352996,
+      "walletId": 1771680234283,
+      "userId": "aa35a20f-ed3a-42a7-b627-884708576fa3",
+      "type": "withdraw",
+      "amount": 10,
+      "balanceAfter": 490,
+      "date": "2026-02-21T13:25:52.996Z"
     }
   ]
 }
